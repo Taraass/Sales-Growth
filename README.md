@@ -23,3 +23,6 @@
 Далі необхідно виконати розгортання на середовищі за допомогою команди
 ```sfdx force:source:deploy -u your-sandbox-alias -x manifest/package.xml```
 
+
+Для доступу до середовища для користувача, можна використовувати посилання 
+```https://mindful-goat-2n0drh-dev-ed.trailblaze.my.salesforce.com/```
