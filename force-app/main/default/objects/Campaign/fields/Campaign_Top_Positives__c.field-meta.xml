@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Campaign_Top_Positives__c</fullName>
+    <label>Campaign Top Positives</label>
+    <required>false</required>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Low Budget</fullName>
+                <default>false</default>
+                <label>Low Budget</label>
+            </value>
+            <value>
+                <fullName>High Expected Revenue</fullName>
+                <default>false</default>
+                <label>High Expected Revenue</label>
+            </value>
+            <value>
+                <fullName>Campaign Completed</fullName>
+                <default>false</default>
+                <label>Campaign Completed</label>
+            </value>
+            <value>
+                <fullName>Campaign In Progress</fullName>
+                <default>false</default>
+                <label>Campaign In Progress</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>5</visibleLines>
+</CustomField>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Campaign_Top_Negatives__c</fullName>
+    <label>Campaign Top Negatives</label>
+    <required>false</required>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Campaign Aborted</fullName>
+                <default>false</default>
+                <label>Campaign Aborted</label>
+            </value>
+            <value>
+                <fullName>Low Lead Volume</fullName>
+                <default>false</default>
+                <label>Low Lead Volume</label>
+            </value>
+            <value>
+                <fullName>Over Budget</fullName>
+                <default>false</default>
+                <label>Over Budget</label>
+            </value>
+            <value>
+                <fullName>Low Expected Revenue</fullName>
+                <default>false</default>
+                <label>Low Expected Revenue</label>
+            </value>
+            <value>
+                <fullName>Low Expected Response</fullName>
+                <default>false</default>
+                <label>Low Expected Response</label>
+            </value>
+            <value>
+                <fullName>Low Conversion Rate</fullName>
+                <default>false</default>
+                <label>Low Conversion Rate</label>
+            </value>
+            <value>
+                <fullName>Low Value Opportunities</fullName>
+                <default>false</default>
+                <label>Low Value Opportunities</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>5</visibleLines>
+</CustomField>

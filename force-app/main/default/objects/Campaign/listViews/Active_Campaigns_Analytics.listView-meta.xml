@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Active_Campaigns_Analytics</fullName>
+    <columns>CAMPAIGN.NAME</columns>
+    <columns>Campaign_Score__c</columns>
+    <columns>Campaign_Top_Negatives__c</columns>
+    <columns>Campaign_Top_Positives__c</columns>
+    <columns>CAMPAIGN.STATUS</columns>
+    <columns>CAMPAIGN.NUM_LEADS</columns>
+    <filterScope>Everything</filterScope>
+    <label>Campaigns Analytics CQ</label>
+</ListView>
