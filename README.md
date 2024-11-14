@@ -25,4 +25,4 @@
 
 
 Для доступу до середовища для користувача, можна використовувати посилання 
-```https://mindful-goat-2n0drh-dev-ed.trailblaze.my.salesforce.com/```
+```https://mindful-goat-2n0drh-dev-ed.trailblaze.my.site.com/custom/s/login/```
