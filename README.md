@@ -12,7 +12,7 @@
 Необхідно клонувати репозиторій на локальний комп'ютер для розгортання системи
 
 
-```git clone https://github.com/your-username/your-repository-name.git](https://github.com/Taraass/Sales-Growth.git```
+```git clone https://github.com/Taraass/Sales-Growth.git```
 Далі необхідно авторизуватись у середовище:
 
 ```sfdx auth:web:login -a your-org-alias```
