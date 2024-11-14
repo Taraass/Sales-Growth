@@ -1,18 +1,25 @@
-# Salesforce DX Project: Next Steps
+# Project Name
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+Цей проект містить компоненти для системи аналізу та прогнозування маркетингової діяльності компанії. Цей опис дасть можливість розгорнути код за допомогою Salesforce CLI (SFDX).
 
-## How Do You Plan to Deploy Your Changes?
+## Вимоги
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+Для початку потрібно встановити Salesforce CLI, який дасть змогу виконувати команди SFPX.
+- [Salesforce CLI (SFDX)](https://developer.salesforce.com/tools/sfdxcli) – для виконання команд SFDX.
+- Обліковий запис Salesforce (Developer Edition або Scratch Org).
 
-## Configure Your Salesforce DX Project
+## Клонування репозиторію
+Необхідно клонувати репозиторій на локальний комп'ютер для розгортання системи
 
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
 
-## Read All About It
+```git clone https://github.com/your-username/your-repository-name.git](https://github.com/Taraass/Sales-Growth.git```
+Далі необхідно авторизуватись у середовище:
 
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+```sfdx auth:web:login -a your-org-alias```
+
+Наступним кроком є створення проекту за допомогою команди sfpx
+```sfdx force:org:create -f config/project-scratch-def.json -a your-scratch-org-alias -s```
+
+Далі необхідно виконати розгортання на середовищі за допомогою команди
+```sfdx force:source:deploy -u your-sandbox-alias -x manifest/package.xml```
+
